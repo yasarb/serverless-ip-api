@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/yasarb/serverless-ip/api"
+	"github.com/yasarb/serverless-ip-api/api"
 	"log"
 	"net"
 	"net/http"
