@@ -14,6 +14,7 @@ func main() {
 	addr := net.JoinHostPort(host, port)
 
 	http.HandleFunc("/ping", api.Ping)
+	http.HandleFunc("/", api.Home)
 
 	log.Println("Starting HTTP server at", addr)
 	log.Fatal(http.ListenAndServe(addr, nil))
