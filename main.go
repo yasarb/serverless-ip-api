@@ -1,11 +1,11 @@
 package main
 
 import (
+	"github.com/yasarb/serverless-ip/api"
 	"log"
 	"net"
 	"net/http"
 	"os"
-	"serverless-ip/api"
 )
 
 func main() {
